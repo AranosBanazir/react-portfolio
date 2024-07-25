@@ -2,7 +2,8 @@ import Nav from './Navigation'
 
  const styles = {
     header:{
-        backgroundColor: '#444554'
+        backgroundColor: '#444554',
+        fontSize: '20px'
     }
  }
 

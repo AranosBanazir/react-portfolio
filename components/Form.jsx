@@ -17,17 +17,17 @@ export default function Form({contactMessage}){
 
     return (
     <>
-      <form className="w-50" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label">Name:</label>
+            <label htmlFor="name" className="form-label">Name:</label>
             <input type="text" className="form-control"  placeholder="John Doe" name="name" required/>
         </div>
         <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label">Email:</label>
+            <label htmlFor="email" className="form-label">Email:</label>
             <input type="email" className="form-control"  placeholder="name@example.com" name="email" required />
         </div>
         <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label">Message:</label>
+            <label htmlFor="message" className="form-label">Message:</label>
             <textarea className="form-control pb-5"  rows="3" name="message" required></textarea>
         </div>
 

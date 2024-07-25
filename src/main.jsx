@@ -12,15 +12,17 @@ import ErrorPage from '../pages/Error.jsx'
 
 import {Webhook} from 'discord-webhook-node'
 const contactMessage = (contact) =>{
-    const hook = new Webhook('https://discord.com/api/webhooks/1266052685186990141/MX0pv6aMpxGlQMrmDMtuStlNOrFrIBuIQecMBBpiTwE2OjFCinLts9BoGkwPujPnPb9O')
+    const hook = new Webhook('https://discord.com/api/webhooks/1266144145920229437/55DYaEFgOdVjr7BS_cHX_JWhEbxWlgXGH45MoNUi1XdrJGFYV65EcFISBaKqYiNsdIoE')
     const message = `
     \`\`\`
-Email: ${contact.email}
+Email: 
+${contact.email}
 
-Name: ${contact.name}
+Name: 
+${contact.name}
 
 Message:
-  ${contact.msg}
+${contact.msg}
      \`\`\`
     `
     hook.setUsername('Contact Message')

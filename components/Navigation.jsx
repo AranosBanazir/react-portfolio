@@ -5,10 +5,6 @@ export default function Nav(){
     return (
         
         <nav className="d-flex flex-wrap justify-content-center w-100">
-            <NavLink to='/'>
-                Home
-            </NavLink>
-
             <NavLink  to='/about'>
                 About
             </NavLink>
