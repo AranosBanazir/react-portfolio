@@ -1,40 +1,27 @@
-
 import { NavLink } from "react-router-dom"
 
-const styles = {
-    nav:{
-        display: 'flex',
-        gap: 12
-    },
-
-    link:{
-        margin: 20
-    }
-}
 
 export default function Nav(){
-
-    // const getActiveStyle = ({isActive}) => isActive ? 'active' : ''
-
     return (
-        <nav>
-            <NavLink style={styles.link} to='/'>
+        
+        <nav className="d-flex flex-wrap justify-content-center w-100">
+            <NavLink to='/'>
                 Home
             </NavLink>
 
-            <NavLink style={styles.link} to='/about'>
+            <NavLink  to='/about'>
                 About
             </NavLink>
 
-            <NavLink style={styles.link} to='/contact'>
+            <NavLink  to='/contact'>
                 Contact
             </NavLink>
 
-            <NavLink style={styles.link} to='/projects'>
+            <NavLink  to='/projects'>
                 Portfolio
             </NavLink>
 
-            <NavLink style={styles.link} to='/resume'>
+            <NavLink  to='/resume'>
                 Resume
             </NavLink>
         </nav>
