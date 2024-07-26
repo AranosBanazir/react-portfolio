@@ -9,9 +9,6 @@ export default function Nav(){
                 About
             </NavLink>
 
-            <NavLink  to='/contact'>
-                Contact
-            </NavLink>
 
             <NavLink  to='/projects'>
                 Portfolio
@@ -19,6 +16,10 @@ export default function Nav(){
 
             <NavLink  to='/resume'>
                 Resume
+            </NavLink>
+            
+            <NavLink  to='/contact'>
+                Contact
             </NavLink>
         </nav>
     )

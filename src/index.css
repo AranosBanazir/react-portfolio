@@ -16,15 +16,20 @@ background: linear-gradient(90deg, rgba(40,38,38,1) 16%, rgba(91,96,99,1) 71%, r
 
 html{
   height: 100vh;
+  width: 100vw;
   padding-bottom: 150px;
 }
 
+.example::-webkit-scrollbar {
+  display: none;
+}
+
 body{
-  height: 90vh;
+  height: 100vh;
   background-color: dimgray;
   background-image: url('https://freerangestock.com/sample/140293/scratched-blue-metal--texture-background.jpg');
   opacity: 0.9;
-
+  scroll-behavior: smooth;
 }
 
 
@@ -55,3 +60,32 @@ footer{
 }
 
 
+.portrait{
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  /* margin-left: 50px; */
+  border-radius: 150px;
+  
+  
+}
+
+.oswald-family {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .container{
+  margin: 50px 10px;
+} */
+
+.root{
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-body{
+  margin-right: 10px;
+}
