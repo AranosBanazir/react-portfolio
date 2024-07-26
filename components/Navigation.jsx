@@ -14,10 +14,6 @@ export default function Nav(){
                 Portfolio
             </NavLink>
 
-            <NavLink  to='/resume'>
-                Resume
-            </NavLink>
-            
             <NavLink  to='/contact'>
                 Contact
             </NavLink>

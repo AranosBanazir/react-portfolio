@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutPage from '../pages/About.jsx' 
 import ContactPage from '../pages/Contact.jsx' 
 import ProjectsPage from '../pages/Projects.jsx' 
-import ResumePage from '../pages/Resume.jsx' 
 import ErrorPage from '../pages/Error.jsx'
 
 
@@ -52,10 +51,6 @@ const router = createBrowserRouter([
       {
         path: 'projects',
         element: <ProjectsPage />
-      },
-      {
-        path: 'resume',
-        element: <ResumePage />
       }
     ]
   },

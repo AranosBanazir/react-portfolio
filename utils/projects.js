@@ -19,7 +19,14 @@ const projects = [
         deployedURL: 'https://cryptid-spot.onrender.com',
         image:'../assets/images/cryptid.png',
         desc: 'The premiere Cryptid tracking website. Complete with a Cryptid library, personalized profiles, sighting tracking and a live feed map of spotted Cryptids near you.'
-    }
+    },
+    {
+        title: 'Blog Site',
+        repo: 'https://github.com/AranosBanazir/tech-blog',
+        deployedURL: 'https://cryptid-spot.onrender.com',
+        image:'../assets/images/techblog.png',
+        desc: 'The premiere Cryptid tracking website. Complete with a Cryptid library, personalized profiles, sighting tracking and a live feed map of spotted Cryptids near you.'
+    }  
 ]
 
 

@@ -13,23 +13,25 @@ background: linear-gradient(90deg, rgba(40,38,38,1) 16%, rgba(91,96,99,1) 71%, r
   font-style: normal;
 }
 
+::-webkit-scrollbar-track-piece{
+  background-color: red;
+}
 
 html{
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   padding-bottom: 150px;
+
+
 }
 
-.example::-webkit-scrollbar {
-  display: none;
-}
+
 
 body{
   height: 100vh;
   background-color: dimgray;
   background-image: url('https://freerangestock.com/sample/140293/scratched-blue-metal--texture-background.jpg');
   opacity: 0.9;
-  scroll-behavior: smooth;
 }
 
 
