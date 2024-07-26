@@ -1,41 +1,57 @@
 
-::placeholder{
-  color: white;
+
+
+.gradient{
+  background: rgb(40,38,38);
+background: linear-gradient(90deg, rgba(40,38,38,1) 16%, rgba(91,96,99,1) 71%, rgba(33,34,36,1) 100%, rgba(44,44,212,1) 100%);
 }
 
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 html{
-  height: 100%;
+  height: 100vh;
   padding-bottom: 150px;
 }
 
 body{
-  height: 100%;
+  height: 90vh;
   background-color: dimgray;
+  background-image: url('https://freerangestock.com/sample/140293/scratched-blue-metal--texture-background.jpg');
+  opacity: 0.9;
+
 }
 
 
 a{
   text-decoration: none;
   margin: 0px 10px 0px 10px;
-  color: white;
+  color: #E5D0CC;
   
 }
 
 .active{
-  color: cyan;
+  color: #388088;
   font-weight: bold;
   font-size: larger;
-  line-height:1rem;
+  line-height: 1rem;
+  text-shadow: -2px 2px black;
 }
 
 footer{
-  position: fixed;
-  background-color: black;
+  /* position: fixed; */
+  /* background-color: black; */
+  margin-top: 125px;
   width: 100%;
   left: 0;
   bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
-#root{
-  padding-bottom: 150px;
-}
+

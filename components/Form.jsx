@@ -15,23 +15,39 @@ export default function Form({contactMessage}){
         contactMessage(msg)
     }
 
+    const styles = {
+        text:{
+            color: '#E5D0CC',
+            fontSize: '25px',
+            textShadow: '-2px 3px black'
+        },
+        input:{
+            backgroundColor: '#455561',
+            color: '#E5D0CC',
+            letterSpacing: '2px',
+            fontSize: '20px'
+        }
+
+    }
+
+
     return (
     <>
       <form onSubmit={handleSubmit}>
       <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name:</label>
-            <input type="text" className="form-control"  placeholder="John Doe" name="name" required/>
+            <label htmlFor="name" className="form-label permanent-marker-regular" style={styles.text} >Name:</label>
+            <input style={styles.input} type="text" className="form-control permanent-marker-regular"  placeholder="John Doe" name="name" required/>
         </div>
         <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email:</label>
-            <input type="email" className="form-control"  placeholder="name@example.com" name="email" required />
+            <label htmlFor="email" className="form-label permanent-marker-regular" style={styles.text}>Email:</label>
+            <input style={styles.input} type="email" className="form-control permanent-marker-regular"  placeholder="name@example.com" name="email" required />
         </div>
         <div className="mb-3">
-            <label htmlFor="message" className="form-label">Message:</label>
-            <textarea className="form-control pb-5"  rows="3" name="message" required></textarea>
+            <label htmlFor="message" className="form-label permanent-marker-regular" style={styles.text}>Message:</label>
+            <textarea style={styles.input} className="form-control pb-5 permanent-marker-regular"  rows="3" name="message" required></textarea>
         </div>
 
-        <button className="btn btn-success">Submit</button>
+        <button className="btn permanent-marker-regular" style={styles.input}>Submit</button>
         </form>
     </>
     )

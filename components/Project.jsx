@@ -5,13 +5,20 @@ const styles = {
         backgroundColor: '#455561',
         borderRadius: '5px',
         padding: '10px',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'B4D2E7'
     },
     link:{
         color: 'black',
         backgroundColor: 'peachpuff',
      
         // right: '50px'
+    },
+    text:{
+        color: '#E5D0CC'
+    },
+    header:{
+        color: 'peachpuff'
     }
 }
 
@@ -28,21 +35,14 @@ export default function Project({project}){
         ) 
     }
 
-    const imgFadeIn = (e) =>{
-     if (project.image === '') return   
-        // e.target.attributes.style.value = `background: url(${project.image});` 
-    } 
-    
-    // const imgFadeOut = (e) =>{
-    //     e.target.attributes.style.value = styles.card
-    // }
+
 
     return (
         <>
-            <div onMouseOver={imgFadeIn}  className="card max-w-50 d-flex flex-col" style={styles.card}>
-                <div className="card-body">
-                    <h5 className="card-title">{project.title}</h5>
-                    <p className="card-subtitle mb-2 text-body-secondary">{project.desc}</p>
+            <div className="card max-w-50 d-flex flex-col" style={styles.card}>
+                <div className="">
+                    <h5 className="card-title" style={styles.header}>{project.title}</h5>
+                    <p className="card-subtitle mb-2" style={styles.text}>{project.desc}</p>
                     {img}
                     <div>
                         {repoLink}
