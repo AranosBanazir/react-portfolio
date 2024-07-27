@@ -7,7 +7,7 @@ export default function AboutCard({title, text, styles}){
             <div className="card" style={styles.card}>
                 <div className="card-body">
                     <h2 className="card-title oswald-family" style={styles.header}>{title}</h2>
-                    <p style={styles.text} className="oswald-family">{text}</p>
+                    <p className="oswald-family light-hover">{text}</p>
                 </div>
             </div>
             </div>

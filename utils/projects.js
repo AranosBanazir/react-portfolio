@@ -3,7 +3,7 @@ const projects = [
         title: 'Tic Tac Node',
         repo: 'https://github.com/AranosBanazir/tic-tac-node',
         deployedURL: '',
-        image:'../assets/Tic-Tac-Node.mp4',
+        image:'../assets/ttn.mp4',
         desc: 'Two player Tic-Tac-Toe in Node'
     },
     {

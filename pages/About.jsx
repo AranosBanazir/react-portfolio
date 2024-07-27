@@ -8,18 +8,16 @@ export default function AboutPage() {
             backgroundColor: '#455561',
             marginTop: '20px',
             marginRight: '20px',
-            color: '#E5D0CC',
+          
             fontSize: '20px',
             fontWeight: 'bold'
         },
         header:{
             borderBottom: '3px solid black',
             lineHeight: '3rem',
+            color: '#E5D0CC',
             textShadow: '-2px 3px black'
         },
-        text:{
-            color: 'black'
-        }
 
     }
 
