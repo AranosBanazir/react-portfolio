@@ -26,7 +26,7 @@ export default function AboutPage() {
             <section className="container">
                 <div className="row">
                     <div className="col-sm-12 col-lg-6">
-                        <img className="portrait" src="../assets/images/pfp.jpg" alt="" />
+                        <img className="portrait" src="/images/pfp.jpg" alt="" />
                     </div>
 
                     <div className="col-sm-12 col-md-6 mt-5 w-100">

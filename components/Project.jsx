@@ -20,8 +20,7 @@ const styles = {
         fontSize: '40px',
         textShadow: '-4px 2px black',
         position: 'relative',
-        // right: '450px',
-        // transform: 'rotate(-45deg)',
+   
         borderRadius: '50px',
     }
 }
@@ -33,7 +32,7 @@ export default function Project({project}){
 
     if (project.image.match('mp4')){
         img = (
-        <video width="700" height="" autoPlay = {true} loop = {true} preload="auto" muted={true}>
+        <video h autoPlay = {true} loop = {true} preload="auto" muted={true}>
             <source src={project.image} type="video/mp4"/>
         </video>
         ) 

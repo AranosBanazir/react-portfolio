@@ -13,7 +13,7 @@ export default function Header(){
     
 
     return (
-        <div className='d-flex justify-content-around p-4 gradient' id='header' style={styles.header}>
+        <div className='d-flex justify-content-around p-4 gradient flex-row' id='header' style={styles.header}>
             <Nav/>
         </div>
 

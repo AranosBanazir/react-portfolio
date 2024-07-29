@@ -5,7 +5,7 @@
     },
     {
         title: 'My Hobbies',
-        text: 'When I am not working on any new  programing projects; A lot of my time is devoted to different hobbies that come in and out of focus for me. I get a lot of life from creating things wether it is woodworking, music with friends, or picking up a new programing language. I love to challenge myself and always be learning..'
+        text: 'When I am not working on any new  programing projects; A lot of my time is devoted to different hobbies that come in and out of focus for me. I get a lot of life from creating things whether it is woodworking, music with friends, or picking up a new programing language. I love to challenge myself and always be learning..'
     },
     {
         title: 'My Accomplishments',
