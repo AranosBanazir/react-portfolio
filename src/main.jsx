@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+import '../public/index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutPage from '../pages/About.jsx' 
 import ContactPage from '../pages/Contact.jsx' 
