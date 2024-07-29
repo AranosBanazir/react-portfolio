@@ -10,11 +10,12 @@ const styles = {
 export default function Nav(){
     return (
         <>
-        <div>
+        <div className="w-25">
             <h1 style={styles.h1} className="permanent-marker-regular">
                 Caleb Saiia
             </h1>
         </div>
+
         <nav className="d-flex flex-wrap justify-content-center w-100 permanent-marker-regular">
             <NavLink  to='/about'>
                 About

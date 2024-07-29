@@ -32,9 +32,11 @@ export default function Project({project}){
 
     if (project.image.match('mp4')){
         img = (
-        <video h autoPlay = {true} loop = {true} preload="auto" muted={true}>
-            <source src={project.image} type="video/mp4"/>
-        </video>
+        <div className="ratio ratio-16x9">
+            <video  autoPlay = {true} loop = {true} preload="auto" muted={true}>
+                <source src={project.image} type="video/mp4"/>
+            </video>
+        </div>
         ) 
     }
 
