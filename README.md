@@ -1,1 +1,21 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/748b549c-5f76-4edc-8624-eb8d9933f1b0/deploy-status)](https://app.netlify.com/sites/aranosbanazir/deploys)
+# React Portfolio 
+    
+## Description 
+  
+  A single-page react app as a project portfolio with information about myself as well as how to contact me, and a list of projects I have worked on with links to their respective repo's and deployed locations.
+
+## Table of Contents
+1. [Description](#description)
+2. [Usage](#usage)
+3. [Contact](#contact)
+
+## Usage 
+  
+  Visit my website [here](aranosbanazir.netlify.app)!
+
+## Contact
+You can contact me through any of the below methods:
+
+Github: [AranosBanazir](https://www.github.com/AranosBanazir)
+
+Email: [calebsaiia@gmail.com](mailto:calebsaiia@gmail.com)
